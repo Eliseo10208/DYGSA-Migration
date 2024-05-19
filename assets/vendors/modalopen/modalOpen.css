@@ -1,0 +1,39 @@
+.modal{
+  padding: 0 11px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10000;
+  background: rgba(0, 0, 0, 0.66);
+  display: block;
+}
+.modal .modal-content{
+  background: #FFF;
+  margin: 39px auto;
+  border-radius: 3px;
+  padding: 18px;
+  position: relative;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.68);
+  z-index: 10001;
+  border: 0;
+}
+.modal .modal-content button.modal-close{
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  padding: 0;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+  -webkit-appearance: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 12px;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+  font-family: sans-serif;
+  z-index: 100;
+}
